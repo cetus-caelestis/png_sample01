@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{da4e086e-fa10-41f4-832f-19a809770335}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\MyUtility">
+      <UniqueIdentifier>{b1b8d93a-82cc-4e02-8b8d-03abee7044ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\MyUtility\cpp">
+      <UniqueIdentifier>{ca622af3-05b4-4e30-8831-914fc0eb1376}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MyUtility\ZLib.cpp">
+      <Filter>src\MyUtility\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MyUtility\LZ.cpp">
+      <Filter>src\MyUtility\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MyUtility\ImagePNG.cpp">
+      <Filter>src\MyUtility\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MyUtility\Deflate.cpp">
+      <Filter>src\MyUtility\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MyUtility\ImagePNGImpl.cpp">
+      <Filter>src\MyUtility\cpp</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\MyUtility\Deflate.h">
+      <Filter>src\MyUtility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MyUtility\ImagePNG.h">
+      <Filter>src\MyUtility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MyUtility\LZ.h">
+      <Filter>src\MyUtility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MyUtility\PrefixCodeTree.h">
+      <Filter>src\MyUtility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MyUtility\ZLib.h">
+      <Filter>src\MyUtility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MyUtility\ImagePNGImpl.h">
+      <Filter>src\MyUtility</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
